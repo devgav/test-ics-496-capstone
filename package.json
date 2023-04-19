@@ -1,0 +1,19 @@
+{
+  "name": "ui-testing",
+  "version": "1.0.0",
+  "description": "This is to be used for testing of the wordpress website for the ICS 496 capstone project.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Peng",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-puppeteer": "^8.0.6"
+  }
+}
